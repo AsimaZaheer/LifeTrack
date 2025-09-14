@@ -18,7 +18,7 @@ function App() {
     <div className={`app-container ${darkMode ? "dark" : ""}`}>
       {/* Header */}
       <header className="app-header">
-        <h1>Productivity Suite</h1>
+        <h1>LifeTrack</h1>
         <div className="header-controls">
           <button 
             onClick={() => setDarkMode(!darkMode)}
@@ -60,7 +60,7 @@ function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p>© {new Date().getFullYear()} Productivity Suite</p>
+        <p>© {new Date().getFullYear()} LifeTrack</p>
       </footer>
     </div>
   );
